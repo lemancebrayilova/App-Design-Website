@@ -155,3 +155,30 @@ img {
 .ptb_100 {
     padding: 100px 0;
 }
+
+/*===== HEADER CSS =====*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: transparent;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 1.875rem 1.25rem;
+    color: var(--text-white);
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.navbar-brand img {
+    max-width: 50%;
+}
+
+/* On Scroll Fixed Navbar*/
