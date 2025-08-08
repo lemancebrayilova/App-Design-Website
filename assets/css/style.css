@@ -13,7 +13,7 @@
     --bg-black: #2c2c2c;
     --bg-light-pink: #ff007a;
     --bg-light-gray: #f6f9fe;
-    --bg-gradient: linear-gradient(to top, #ff007a 0%, rgba 142, 0, 116, 1 100%);
+    --bg-gradient: linear-gradient(to top, #ff007a 0%, rgba(142, 0, 116, 1) 100%);
     --bg-card-shodow: 0 0.188rem 1.25rem 0px rgba(0, 0, 0, 0.06);
     --bg-card-shodow: 0 2rem 5rem rgb(0, 0, 0, 0.06);
     --bg-light-gray-1: #eee;
@@ -141,7 +141,7 @@ img {
 
 .btn,
 .btn:active,
-.btn.sApp-btn:before,
+.btn.sApp-btn::before,
 .bg-overlay::after {
     background: var(--bg-gradient);
 }
