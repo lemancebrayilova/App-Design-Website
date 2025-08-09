@@ -378,3 +378,45 @@ img {
     overflow: hidden;
     margin-bottom: 2.5rem;
 }
+
+.single_promo_1::before {
+    position: absolute;
+    content: '';
+    width: 0.063rem;
+    height: 0.125rem;
+    top: 0rem;
+    left: 0rem;
+    border-radius: 50%;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.single_promo_1:hover::before {
+    width: 100%;
+    background: var(--bg-gradient);
+}
+
+.single_promo_hover:hover {
+    box-shadow: 0 2rem 5rem rgb(0 0 0 /12%);
+}
+
+.single_promo_1 span {
+    font-size: 30px;
+    background-image: url(../../images/promo-icon-bg.png);
+    padding: 54px 0 57px 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.single_promo_1 h5 {
+    padding-bottom: 0.438rem;
+}
+
+.single_promo_1 p {
+    padding-top: 0.625rem;
+    font-size: 0.938rem;
+}
