@@ -335,16 +335,16 @@ img {
     padding: 6.25rem 0 4rem;
 }
 
-.section_headling {
+.section_heading {
     margin-bottom: 2.813rem;
 }
 
-.section_headling > h2 {
+.section_heading > h2 {
     position: relative;
     padding-bottom: 2.5rem;
 }
 
-.section_headling > h2::after {
+.section_heading > h2::after {
     position: absolute;
     content: '';
     height: 0.125rem;
@@ -356,7 +356,7 @@ img {
     transform: translateX(-50%);
 }
 
-.section_headling h2 span {
+.section_heading h2 span {
     font-weight: 400;
     font-size: 2rem;
 }
