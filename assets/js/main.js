@@ -80,3 +80,11 @@ var swiper = new Swiper('.swiper-container.app-screen', {
 });
 
 // Side Navigation Bar Close While We Click On Navigation Links
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+
+navBar.forEach(function(a) {
+    a.addEventListener("click", function() {
+        navCollapse.classList.remove("show");
+    })
+})
