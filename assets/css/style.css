@@ -656,3 +656,13 @@ img {
     outline: none;
     border: none;
 }
+
+/*===== FOOTER CSS =====*/
+.copyright {
+    background: var(--bg-gradient);
+}
+
+.copyright p,
+.copyright a {
+    color: var(--text-white);
+}
