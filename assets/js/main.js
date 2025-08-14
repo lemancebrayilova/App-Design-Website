@@ -14,10 +14,10 @@ function navMenu() {
         // Apply Transition
         if(scroll >= 250) {
             navBar.classList.add("navbar-sticky-transitioned");
-            // scrollTopButton.classList.add("scrollActive");
+            scrollTopButton.classList.add("scrollActive");
         } else {
             navBar.classList.remove("navbar-sticky-transitioned");
-            // scrollTopButton.classList.remove("scrollActive");
+            scrollTopButton.classList.remove("scrollActive");
         }
 
         // Sticky On
