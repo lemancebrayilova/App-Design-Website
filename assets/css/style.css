@@ -495,3 +495,31 @@ img {
     color: var(--text-white);
     background: var(--bg-gradient);
 }
+
+/*===== APP-SCREENSHOTS CSS =====*/
+.app-screen {
+    padding-bottom: 5.313rem;
+}
+
+.app-screen .swiper-slide {
+    width: 263px !important;
+    height: auto;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.5rem;
+}
+
+.swiper-pagination-bullet {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.swiper-pagination-bullet {
+    background-color: #ccc !important; /* passiv bullet rəngi */
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--bg-light-pink) !important; /* aktiv bullet rəngi */
+}
