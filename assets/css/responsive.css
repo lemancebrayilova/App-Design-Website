@@ -1,5 +1,8 @@
 @media (max-width: 1030px) {
     /* Features Css */
+    .margin_top_up {
+        margin-top: -25rem;
+    }
 
 }
 
@@ -95,6 +98,9 @@
     }
 
     /* Counter Css */
+    .single_counter:nth-child(2):after {
+        display: none;
+    }
 
     /* Features Css */
     .mobile_px_20 {
@@ -102,6 +108,16 @@
     }
     .margin_top_up {
         margin-top: 0rem;
+    }
+    .features_middle {
+        text-align: center;
+    }
+    .feature_img {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    .feature_img img {
+        max-width: 95%;
     }
     
 }
