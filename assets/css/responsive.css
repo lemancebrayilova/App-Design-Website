@@ -72,6 +72,9 @@
     }
 
     /* Pricing Css */
+    .single_price {
+        margin-bottom: 2.5rem;
+    }
     
 }
 
